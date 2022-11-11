@@ -1,6 +1,5 @@
 package org.junit;
 
-import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.mockito.InjectMocks;
 import org.mockito.Mock;
@@ -8,11 +7,9 @@ import org.mockito.Mockito;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.junit4.SpringRunner;
 import tn.esprit.rh.achat.entities.CategorieProduit;
-import tn.esprit.rh.achat.entities.Produit;
 import tn.esprit.rh.achat.repositories.CategorieProduitRepository;
 import tn.esprit.rh.achat.services.CategorieProduitServiceImpl;
 
-import java.util.*;
 
 import static org.junit.Assert.assertNotNull;
 
