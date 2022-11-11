@@ -1,4 +1,4 @@
-package com.esprit.rh.achat;
+package org.junit;
 
 
 import org.junit.Test;
